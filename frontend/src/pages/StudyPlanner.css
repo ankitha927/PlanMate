@@ -1,0 +1,83 @@
+.study-planner-container {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+.study-planner-container h2,
+.study-planner-container h3 {
+  color: #4f8cff;
+  margin-bottom: 1rem;
+}
+
+.study-planner-container input[type="text"],
+.study-planner-container input[type="date"] {
+  padding: 0.8rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  width: calc(33% - 10px);
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  font-size: 1rem;
+}
+
+.study-planner-container input:focus {
+  outline: none;
+  border-color: #4f8cff;
+}
+
+.study-planner-container button {
+  padding: 0.6rem 1.2rem;
+  background-color: #4f8cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  margin-right: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.study-planner-container button:hover {
+  background-color: #3a6fdc;
+}
+
+.study-planner-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.study-plan-item {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.study-plan-item div:first-child {
+  margin-bottom: 0.5rem;
+}
+
+.countdown {
+  font-weight: bold;
+}
+
+.countdown.green {
+  color: #4caf50;
+}
+
+.countdown.orange {
+  color: #f0ad4e;
+}
+
+.countdown.red {
+  color: #ff6b6b;
+}
