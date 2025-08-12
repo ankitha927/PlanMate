@@ -1,5 +1,4 @@
-title: PlanMate - Your Smart plan Companion
-description: |
+
   PlanMate is a responsive and user-friendly  planner app designed to help people to manage tasks and deadlines efficiently.
   Built using Java Spring Boot, React.js, and MySQL, the app provides countdowns, updates, deletions, and user-specific  plans.
   It’s accessible on both mobile and desktop browsers.
